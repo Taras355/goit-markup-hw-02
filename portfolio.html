@@ -4,39 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/styles.css" rel="stylesheet" />
     <title>Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header class="header">
       <nav class="nav">
-        <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+        <a class="logo link" href="./index.html">
+          <span class="logo-web-header">Web</span><span class="logo-studio-header">Studio</span>
         </a>
-        <ul class="nav-list">
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="nav-list list">
+          <li class="nav-item"><a class="nav-link link" href="./index.html">Studio</a></li>
+          <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <a class="nav-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="nav-telephone" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
     </header>
 
     <main>
       <div class="filter">
-        <ul class="filter-list">
-          <li><button class="filter-button" type="button">All</button></li>
-          <li><button class="filter-button" type="button">Web Site</button></li>
-          <li><button class="filter-button" type="button">App</button></li>
-          <li><button class="filter-button" type="button">Design</button></li>
-          <li><button class="filter-button" type="button">Marketing</button></li>
+        <ul class="filter-list list">
+          <li><button class="filter-button button" type="button">All</button></li>
+          <li><button class="filter-button button" type="button">Web Site</button></li>
+          <li><button class="filter-button button" type="button">App</button></li>
+          <li><button class="filter-button button" type="button">Design</button></li>
+          <li><button class="filter-button button" type="button">Marketing</button></li>
         </ul>
       </div>
 
       <section class="examples">
-        <ul class="examples-list">
+        <ul class="examples-list list">
           <li>
             <img
               class="examples-image"
@@ -44,7 +50,9 @@
               alt="Banking App Interface Concept"
               width="360"
             />
-            <p class="examples-name">Banking App Interface Concept</p>
+            <p class="examples-name">
+              <a class="examples-link link" href="#">Banking App Interface Concept</a>
+            </p>
             <p class="examples-filter">App</p>
           </li>
           <li>
@@ -54,7 +62,7 @@
               alt="Cashless Payment"
               width="360"
             />
-            <p class="examples-name">Cashless Payment</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Cashless Payment</a></p>
             <p class="examples-filter">Marketing</p>
           </li>
           <li>
@@ -64,7 +72,7 @@
               alt="Meditaion App"
               width="360"
             />
-            <p class="examples-name">Meditaion App</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Meditaion App</a></p>
             <p class="examples-filter">App</p>
           </li>
           <li>
@@ -74,7 +82,7 @@
               alt="Taxi Service"
               width="360"
             />
-            <p class="examples-name">Taxi Service</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Taxi Service</a></p>
             <p class="examples-filter">Marketing</p>
           </li>
           <li>
@@ -84,7 +92,9 @@
               alt="Screen Illustrations"
               width="360"
             />
-            <p class="examples-name">Screen Illustrations</p>
+            <p class="examples-name">
+              <a class="examples-link link" href="#">Screen Illustrations</a>
+            </p>
             <p class="examples-filter">Design</p>
           </li>
           <li>
@@ -94,7 +104,7 @@
               alt="Online Courses"
               width="360"
             />
-            <p class="examples-name">Online Courses</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Online Courses</a></p>
             <p class="examples-filter">Marketing</p>
           </li>
           <li>
@@ -104,7 +114,9 @@
               alt="Instagram Stories Concept"
               width="360"
             />
-            <p class="examples-name">Instagram Stories Concept</p>
+            <p class="examples-name">
+              <a class="examples-link link" href="#">Instagram Stories Concept</a>
+            </p>
             <p class="examples-filter">Design</p>
           </li>
           <li>
@@ -114,7 +126,7 @@
               alt="Organic Food"
               width="360"
             />
-            <p class="examples-name">Organic Food</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Organic Food</a></p>
             <p class="examples-filter">Web Site</p>
           </li>
           <li>
@@ -124,7 +136,7 @@
               alt="Fresh Coffee"
               width="360"
             />
-            <p class="examples-name">Fresh Coffee</p>
+            <p class="examples-name"><a class="examples-link link" href="#">Fresh Coffee</a></p>
             <p class="examples-filter">Web Site</p>
           </li>
         </ul>
@@ -132,8 +144,8 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html">
-        <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+      <a class="logo link" href="./index.html">
+        <span class="logo-web-footer">Web</span><span class="logo-studio-footer">Studio</span>
       </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth
