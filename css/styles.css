@@ -28,11 +28,11 @@ body {
 
 .logo {
     font-family: 'Raleway';
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-web-header {
